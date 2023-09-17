@@ -14,7 +14,7 @@ const About = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
+      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col -mt-[140px]`}
     >
       <TypingText title="| About Metaversus" textStyles="text-center" />
 

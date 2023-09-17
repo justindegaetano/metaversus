@@ -34,67 +34,67 @@ const World = () => (
           className="w-full h-full object-cover"
         />
 
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute bottom-3 right-4 md:bottom-20 md:right-20 w-[40px] h-[40px] sm:w-[70px] sm:h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img
             src="people-01.png"
             alt="people"
             className="w-full h-full"
           />
         </div>
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute top-3 left-8 md:top-10 md:left-20 w-[40px] h-[40px] sm:w-[70px] sm:h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img
             src="people-02.png"
             alt="people"
             className="w-full h-full"
           />
         </div>
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute top-[70%] left-[47%] sm:top-1/2 sm:left-[45%] w-[40px] h-[40px] sm:w-[70px] sm:h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img
             src="people-03.png"
             alt="people"
             className="w-full h-full"
           />
         </div>
-        <div className="absolute top-[40%] left-[10%] w-[150px] h-[120px] p-[6px] rounded-3xl bg-[#5d6680] flex">
+        <div className="absolute top-[50%] left-[10%] md:top-[40%] md:left-[10%] w-[115px] h-[90px] md:w-[150px] md:h-[120px] p-[6px] rounded-3xl bg-[#5d6680] flex">
           <div className="relative">
             <img
               src="upside-down.png"
               alt="upside down"
               className="relative w-full h-full rounded-3xl"
             />
-            <div className="absolute bottom-9 left-3.5 w-[20px] h-[20px] rounded-full bg-[#5d6680]">
+            <div className="absolute bottom-7 left-3.5 md:bottom-9 md:left-3.5 w-[15px] h-[15px] md:w-[20px] md:h-[20px] rounded-full bg-[#5d6680]">
               <img
                 src="people-01.png"
                 alt="people"
                 className="w-full h-full"
               />
             </div>
-            <p className="absolute bottom-10 left-9 italic text-[9px] text-white">
+            <p className="absolute bottom-7 left-8 md:bottom-10 md:left-9 italic text-[7px] md:text-[9px] text-white">
               240 active players
             </p>
-            <h2 className="absolute bottom-0 left-0 ml-3 mb-3 font-semibold text-[14px] text-white">
+            <h2 className="absolute bottom-0 left-0 ml-2 mb-2 md:ml-3 md:mb-3 font-semibold text-[10px] md:text-[14px] text-white">
               The Upside Down
             </h2>
           </div>
         </div>
-        <div className="absolute top-[5%] right-[20%] w-[150px] h-[120px] p-[6px] rounded-3xl bg-[#5d6680] flex">
+        <div className="absolute top-[5%] right-[20%] md:top-[5%] md:right-[20%] w-[115px] h-[90px] md:w-[150px] md:h-[120px] p-[6px] rounded-3xl bg-[#5d6680] flex">
           <div className="relative">
             <img
               src="hawkins-labs.png"
               alt="hawkins labs"
               className="relative w-full h-full rounded-3xl"
             />
-            <div className="absolute bottom-9 left-3.5 w-[20px] h-[20px] rounded-full bg-[#5d6680]">
+            <div className="absolute bottom-7 left-3.5 md:bottom-9 md:left-3.5 w-[15px] h-[15px] md:w-[20px] md:h-[20px] rounded-full bg-[#5d6680]">
               <img
                 src="people-03.png"
                 alt="people"
                 className="w-full h-full"
               />
             </div>
-            <p className="absolute bottom-10 left-9 italic text-[9px] text-white">
+            <p className="absolute bottom-7 left-8 md:bottom-10 md:left-9 italic text-[7px] md:text-[9px] text-white">
               312 active players
             </p>
-            <h2 className="absolute bottom-0 left-0 ml-3 mb-3 font-semibold text-[14px] text-white">
+            <h2 className="absolute bottom-0 left-0 ml-3 mb-2 md:ml-3 md:mb-3 font-semibold text-[11px] md:text-[14px] text-white">
               Hawkins Labs
             </h2>
           </div>
